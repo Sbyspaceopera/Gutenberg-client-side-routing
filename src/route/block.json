@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "client-side-routing/route",
+	"version": "0.1.0",
+	"title": "Client Side Route",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A client side route from the Client Side Routing package. Use it in a CSR Router Block.",
+	"parent":["client-side-routing/router"],
+	"attributes": {
+		"name":{
+			"type":"string"
+		}
+	},
+	"usesContext": ["client-side-routing/actualRoute","client-side-routing/routerName"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "client-side-routing",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

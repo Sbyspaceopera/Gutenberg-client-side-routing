@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "client-side-routing/router",
+	"version": "0.1.0",
+	"title": "Client Side Router",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A client side router from the Client Side Routing package. Use it with a Client Side Link in your page.",
+	"attributes": {
+		"name":{
+			"type":"string"
+		},
+		"routes":{
+			"type":"array"
+		},
+		"defaultRoute":{
+			"type":"string"
+		},
+		"actualRoute":{
+			"type": "string"
+		}
+	},
+	"providesContext": {
+		"client-side-routing/defaultRoute" : "defaultRoute",
+		"client-side-routing/actualRoute" : "actualRoute",
+		"client-side-routing/routerName" : "name"
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "client-side-routing",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

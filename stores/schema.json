@@ -1,0 +1,11 @@
+{
+    "routers": [
+        {
+            "name": "",
+            "actualRoute" : "",
+            "history": ["/home"],
+            "historyIndex" :"router.history.length-1",
+            "routes": [""]   
+        }
+    ]
+}
