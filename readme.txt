@@ -1,4 +1,4 @@
-=== React Router Navigation ===
+=== Client Side Routing ===
 Contributors:      Sébastien Corbisier
 Tags:              block
 Tested up to:      6.0
